@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>Portafolio</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Links Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <!--Sección del Menú-->
+    <header class="cabecera">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" style="position: fixed; width: 100%; z-index: 1;">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">DesignWebFabri</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Proyects</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Services
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Programming Web</a></li>
+                      <li><a class="dropdown-item" href="#">Programming Movile</a></li>
+                      <li><a class="dropdown-item" href="#">Programming FullStack</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <!--Sección del Hero-->
+    <section class="hero">
+        <div class="container_hero">
+            <h1 class="container_titulo">Fabrizio Alekzander | <b class="dedicacion">Programador FullStack</b></h1>
+            <a href="#proyectos" class="container_button">ver proyectos +</a>
+        </div>
+    </section>
+
+    <!--Sección sobre mí-->
+    <section class="sobre-mi">
+        <h3 class="sobre-mi-titulo">¿Quién soy?</h3>
+        <div class="sobre-mi-container">
+            <img src="images/fondo-sobre-mi.jpeg" alt="imagen-me" class="sobre-mi-container-image">
+            <p class="sobre-mi-parrafo">
+                <b class="sobre-mi-parrafo-titulo">Descripción Personal</b>
+                <br/>
+                Me presento soy programador full stack con un manejo de lenguajes dominidos con 1 año 
+                de experencia como programador frontend y movil a continuación visualizarás algunos de 
+                mis proyectos y experimentos a lo largo de mi aprendizaje como programador full stack 
+                <br />
+                Si tienes pensado crear una web para tu negocio proyecto tienda online este es tu sitio
+                ideal contáctanos a través del siguiente enlace o envianos un mensaje en el siguiente 
+                formulario.
+                <a href="#" class="sobre-mi-parrafo-contacto"><img src="images/whatsapp.png" width="20px" class="icon-whatsapp">Whatsapp</a>
+            </p>
+        </div>
+    </section>
+
+    <!--Sección Skills-->
+    <section class="skills">
+        <h3 class="skills-title">Habilidades Destacadas</h3>
+        <div class="skills-container">
+            <div class="card" style="width: 18rem;">JAVASCRIPT </div>
+            <div class="card" style="width: 18rem;">REACT </div>
+            <div class="card" style="width: 18rem;">NODEJS </div>
+            <div class="card" style="width: 18rem;">PHP </div>
+            <div class="card" style="width: 18rem;">MYSQL </div>
+            <div class="card" style="width: 18rem;">C# </div>
+        </div>
+    </section>
+
+
+    <!--Sección Proyectos-->
+    <section class="proyectos">
+        <div class="container_proyectos">
+            <h3 class="container_proyectos">Proyectos y Experimentos</h3>
+            <div class="container_grid">
+                <p class="container_titulo">Titulo del Proyecto</p>
+            </div> 
+            <div class="container_grid">
+                <p class="container_titulo">Titulo del Proyecto</p>
+            </div>                  
+            <div class="container_grid">
+                <p class="container_titulo">Titulo del Proyecto</p>
+            </div>
+            <div class="container_grid">
+                <p class="container_titulo">Titulo del Proyecto</p>
+            </div>    
+            <div class="container_grid">
+                <p class="container_titulo">Titulo del Proyecto</p>
+            </div>    
+            <div class="container_grid">
+                <p class="container_titulo">Titulo del Proyecto</p>
+            </div>        
+        </div>
+    </section>
+    <!--Sección formulario-->
+    <section class="formulario">
+        <form action="https://formsubmit.co/cd9e8ac0f03e98d32c4c6e9af5f8c0f7 " method="post" class="formulario-envio">
+            <h3 class="formulario_titulo">¿Deseas iniciar un proyecto?</h3>
+            <p class="formulario_subtitulo">Envianos un mensaje y nos prondemos en contacto contigo!!!</p>
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingInput" placeholder="Ingrese su nombre..."  name="Nombre del remitente: ">
+                <label for="floatingInput">Nombre: </label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInputValue" placeholder="name@example.com" name="Correo del remitente: " >
+                <label for="floatingInputValue">Input with value</label>
+            </div>
+            <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" name="Mensaje del remitente"></textarea>
+                <label for="floatingTextarea">Comments</label>
+              </div>
+
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="submit" value="Enviar Mensaje">
+        </form>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+    <!--Footer-->
+    <footer class="footer">
+        <p class="copy">&copy;DesignWebFabri</p>
+    </footer>
+</body>
+</html>
